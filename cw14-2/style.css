@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  background-color: black;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+img {
+  width: 40%;
+  height: 53vh;
+  border-radius: 5px;
+  margin: 4rem 0.25rem 0 10rem;
+}
+#labels {
+  color: white;
+  margin-top: 7rem;
+}
+#poster {
+  display: flex;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin-bottom: 4rem;
+  line-height: 22px;
+}
+
+#like {
+  align-self: center;
+  margin-top: 1rem;
+  color: white;
+}
+audio {
+  background-color: black;
+  width: 90%;
+  align-self: center;
+  margin-top: 2rem;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: black;
+}
